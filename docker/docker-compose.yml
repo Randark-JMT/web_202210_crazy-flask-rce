@@ -4,7 +4,7 @@ services:
         image: randark/web_202210_crazy-flask-rce
         # build: ../
         environment:
-            FLAG="JMT{crazy-flask-rce}"
-        port:
+            FLAG: "JMT{crazy-flask-rce}"
+        ports:
             - "5000:5000"
         restart: unless-stopped

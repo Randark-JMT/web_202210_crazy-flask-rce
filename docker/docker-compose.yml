@@ -2,7 +2,7 @@ version: '3.4'
 services:
     web:
         image: randark/web_202210_crazy-flask-rce
-        build: ../
+        # build: ../
         environment:
             FLAG="JMT{crazy-flask-rce}"
         port:
